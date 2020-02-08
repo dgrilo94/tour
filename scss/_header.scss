@@ -1,59 +1,73 @@
-
-
 header {
-  .containerInfo {position: absolute;
+  .containerInfo {
+    position: absolute;
     width: 60%;
     left: 50%;
     transform: translate(-50%, 0);
     margin-top: 40px;
     z-index: 200;
-    .logo{
-        position: relative;
-        float: left;
+    .logo {
+      position: relative;
+      float: left;
+      display: inline;
+    }
+
+    .nav {
+      float: right;
+
+      ul {
         display: inline;
 
-    }
-        
-    .nav{
-        float: right;
+        li {
+          display: inline;
+          margin-right: 30px;
 
-    ul{
-           
-            display: inline;
-
-                li{
-                    display: inline;
-                    margin-right: 30px;
-
-                    a{
-                        font-size: 20px;
-                        font-weight: bold;
-                        color: $fontcolor;
-                        text-decoration: none;
-                    }
-                    &:hover{
-
-                    }
-                }
-
-
+          a {
+            font-size: 16px;
+            color: $fontcolor;
+            text-decoration: none;
+          }
+          &:hover {
+          }
         }
+      }
     }
-
-}
+  }
 }
 
 .slick {
-    display: block;
+  display: block;
   height: 100%;
   width: 100%;
 
   div {
-      overflow: hidden;
-      img {
-        width: 100vw;
-        height: 100vh;
-        object-fit: cover;      
+    overflow: hidden;
+    img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+}
+
+.slideDots {
+  position: absolute;
+  z-index: 200;
+  width: 50%;
+  height: 10%;
+  background-color: red;
+  display: inline-block;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 0;
+  ul {
+    li {
+      display: inline-block;
+      height: 100%;
+      width: calc(100% / 3);
+      background-color: blue;
+      border-left: 2px solid #a3a3a3;   
     }
   }
 }
