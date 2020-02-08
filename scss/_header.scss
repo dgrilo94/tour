@@ -1,0 +1,59 @@
+
+
+header {
+  .containerInfo {position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px;
+    z-index: 200;
+    .logo{
+        position: relative;
+        float: left;
+        display: inline;
+
+    }
+        
+    .nav{
+        float: right;
+
+    ul{
+           
+            display: inline;
+
+                li{
+                    display: inline;
+                    margin-right: 30px;
+
+                    a{
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: $fontcolor;
+                        text-decoration: none;
+                    }
+                    &:hover{
+
+                    }
+                }
+
+
+        }
+    }
+
+}
+}
+
+.slick {
+    display: block;
+  height: 100%;
+  width: 100%;
+
+  div {
+      overflow: hidden;
+      img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;      
+    }
+  }
+}

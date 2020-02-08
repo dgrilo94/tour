@@ -1,0 +1,14 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+
+//MQ
+@mixin mq($smallerValue,$biggerValue) {
+  @media (min-width: #{$smallerValue}) and (max-width: $biggerValue) {
+    @content;
+  }
+}
+
+$fontcolor:#ffffff;
