@@ -14,7 +14,7 @@ header {
 
     .nav {
       float: right;
-
+ 
       ul {
         display: inline;
 
@@ -26,8 +26,10 @@ header {
             font-size: 16px;
             color: $fontcolor;
             text-decoration: none;
-          }
-          &:hover {
+            font-family: Oswald;
+            &:hover {
+            color:$hovercolor;
+            }
           }
         }
       }
