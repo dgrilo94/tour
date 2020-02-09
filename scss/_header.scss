@@ -52,28 +52,6 @@ header {
   }
 }
 
-// .slideDots {
-//   position: absolute;
-//   z-index: 200;
-//   width: 50%;
-//   height: 10%;
-//   background-color: red;
-//   display: inline-block;
-//   bottom: 0px;
-//   left: 50%;
-//   transform: translate(-50%, 0);
-//   font-size: 0;
-//   ul {
-//     li {
-//       display: inline-block;
-//       height: 100%;
-//       width: calc(100% / 3);
-//       background-color: blue;
-//       border-left: 2px solid #a3a3a3;   
-//     }
-//   }
-// }
-
 .swiper-container{
 
   display: block;
@@ -101,15 +79,20 @@ header {
   line-height: 30px;
   font-size: 20px;
   border-radius: 0;
-  border-left: 2px solid #a3a3a3; 
+  border-left: 1px solid $fontcolor; 
   margin: 0;
   font-family: Oswald;
+  font-weight: 100;
+  color: $fontcolor;
 
   span{
     font-size: 16px;
-
+    color: $fontcolor;
+  }
+  div{
+    color: $fontcolor;
   }
 }
 .swiper-pagination-bullet-active {
-  color:#fff;
+  color:$fontcolor;
 }

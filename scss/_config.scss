@@ -3,6 +3,13 @@ margin: 0;
 padding: 0;
 }
 
+.wrapper{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 
 //MQ
 @mixin mq($smallerValue,$biggerValue) {
@@ -11,6 +18,21 @@ padding: 0;
   }
 }
 
-$fontcolor:#ffffff;
-$hovercolor:#ff9019;
+//variables
+$fontcolor:#ffffff;//
+$hovercolor:#ff9019;// cor dos btn e hover do nav
 
+//BTN
+
+.btnLink{
+  position: absolute;
+  height: 58px;
+  width: 292px;
+  background-color: $hovercolor;
+  font-family: Oswald;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size:18px;
+  padding: 21px 0 21px 0;
+}

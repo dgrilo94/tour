@@ -215,7 +215,7 @@
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: 10px;
+  bottom: 3px;
   left: 0;
   width: 100%;
 }
@@ -252,7 +252,6 @@
   display: inline-block;
   border-radius: 100%;
   background: rgba(0, 0, 0, 0);
-  opacity: 0.2;
 }
 button.swiper-pagination-bullet {
   border: none;
