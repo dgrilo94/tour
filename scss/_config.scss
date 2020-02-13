@@ -40,11 +40,12 @@ $hovercolor:#ff9019;// cor dos btn e hover do nav
   transform: translate(-50%, 0);
   color: $fontcolor;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  
 
     &:hover{
       background-color: $fontcolor;
       color: $hovercolor;
-
+      border: 0.5px solid black;
     }
 
 }

@@ -1,1 +1,346 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}body{margin:0;padding:0}.wrapper{max-width:1200px;width:100%;margin:auto;left:50%;transform:translate(-50%, 0)}.btnLink{position:relative;height:58px;width:292px;background-color:#ff9019;font-family:Oswald;border-radius:4px;text-align:center;text-decoration:none;font-size:18px;padding:21px 0 21px 0;display:inline-block;left:50%;transform:translate(-50%, 0);color:#fff;box-shadow:4px 4px 10px rgba(0,0,0,0.1)}.btnLink:hover{background-color:#fff;color:#ff9019}header .containerInfo{position:absolute;width:60%;left:50%;transform:translate(-50%, 0);margin-top:40px;z-index:200}header .containerInfo .logo{position:relative;float:left;display:inline}header .containerInfo .nav{float:right}header .containerInfo .nav ul{display:inline}header .containerInfo .nav ul li{display:inline;margin-right:30px}header .containerInfo .nav ul li a{font-size:16px;color:#fff;text-decoration:none;font-family:Oswald}header .containerInfo .nav ul li a:hover{color:#ff9019}.slick{display:block;height:100%;width:100%}.slick div{overflow:hidden}.slick div img{width:100vw;height:100vh;object-fit:cover}.swiper-container{display:block;height:100%;width:100%}.swiper-container div img{width:100vw;height:100vh;object-fit:cover}.swiper-pagination-bullet{width:15%;height:10vh;text-align:left;padding-left:20px;line-height:30px;font-size:20px;border-radius:0;border-left:1px solid #fff;margin:0;font-family:Oswald;font-weight:100;color:#fff}.swiper-pagination-bullet span{font-size:16px;color:#fff}.swiper-pagination-bullet div{color:#fff}.swiper-pagination-bullet-active{color:#fff}.moreInfo{display:block;background-color:#ecf4f8}.moreInfo div{position:absolute;height:100%}.moreInfo div h2{width:75%;padding:10px;font-family:Lora;font-size:60px;font-weight:400;margin:auto;text-align:center;margin-top:100px}.moreInfo div p{width:75%;padding:15px;font-family:Lora;font-size:20px;font-weight:400;margin:auto;text-align:center;margin-top:100px}.moreInfo div a{margin-top:30px}.tours{background-color:#f4fbff;height:100%;width:100%;position:absolute}.tours div{height:100%;left:0;transform:translate(0, 0)}.tours div .title{margin-top:10%;height:15%}.tours div .title h2{position:relative;display:inline-block;height:30px;font-size:60px;font-family:lora}.tours div .title p{position:relative;display:inline-block;width:30%;float:right;font-size:20px}.tours div .cards{margin-top:2%;position:relative;width:100%;height:50%;background-color:red;display:flex;justify-content:space-between}.card{width:30%;height:100%;background-color:blue;display:inline-block}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.btnLink {
+  position: relative;
+  height: 58px;
+  width: 292px;
+  background-color: #ff9019;
+  font-family: Oswald;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 21px 0 21px 0;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #ffffff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnLink:hover {
+  background-color: #ffffff;
+  color: #ff9019;
+  border: 0.5px solid black;
+}
+
+header .containerInfo {
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 40px;
+  z-index: 200;
+}
+
+header .containerInfo .logo {
+  position: relative;
+  float: left;
+  display: inline;
+}
+
+header .containerInfo .nav {
+  float: right;
+}
+
+header .containerInfo .nav ul {
+  display: inline;
+}
+
+header .containerInfo .nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+header .containerInfo .nav ul li a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Oswald;
+}
+
+header .containerInfo .nav ul li a:hover {
+  color: #ff9019;
+}
+
+.slick {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.slick div {
+  overflow: hidden;
+}
+
+.slick div img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.swiper-container {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-container div img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* custmm bullets style */
+.swiper-pagination-bullet {
+  width: 15%;
+  height: 10vh;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 0;
+  border-left: 1px solid #ffffff;
+  margin: 0;
+  font-family: Oswald;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.swiper-pagination-bullet span {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.swiper-pagination-bullet div {
+  color: #ffffff;
+}
+
+.swiper-pagination-bullet-active {
+  color: #ffffff;
+}
+
+.moreInfo {
+  display: block;
+  background-color: #ecf4f8;
+}
+
+.moreInfo div {
+  position: absolute;
+  height: 100%;
+}
+
+.moreInfo div h2 {
+  width: 75%;
+  padding: 10px;
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.moreInfo div p {
+  width: 75%;
+  padding: 15px;
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.moreInfo div a {
+  margin-top: 30px;
+}
+
+.tours {
+  background-color: #f4fbff;
+  width: 100%;
+  position: absolute;
+}
+
+.tours div {
+  height: 100%;
+  left: 0;
+  transform: translate(0, 0);
+}
+
+.tours div .title {
+  margin-top: 10%;
+  height: 15%;
+}
+
+.tours div .title h2 {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  font-size: 60px;
+  font-family: lora;
+}
+
+.tours div .title p {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  float: right;
+  font-size: 20px;
+}
+
+.tours div .cards {
+  margin-top: 6vw;
+  position: relative;
+  width: 100%;
+  height: 45vw;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tours div a {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  display: inline-block;
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.card h6 {
+  margin-top: 40px;
+  font-size: 12px;
+  margin-left: 45px;
+}
+
+.card h4 {
+  margin-left: 45px;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.card .iconsContainer {
+  display: flex;
+  height: 14%;
+}
+
+.card .iconsContainer :nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.card .iconsContainer .imgCard {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  object-fit: none;
+  display: inline;
+  fill: red;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.card .iconsContainer .infoCard {
+  width: calc(100% / 3);
+}
+
+.card .iconsContainer .infoCard h6 {
+  margin: 0;
+  text-align: center;
+}
+
+.card .iconsContainer .infoCard h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.card a {
+  width: 55%;
+  background-color: #ffffff;
+  color: #ff9019;
+}
+
+.card a:hover {
+  background-color: #ff9019;
+  color: #ffffff;
+}

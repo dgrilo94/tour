@@ -1,6 +1,5 @@
 .tours {
   background-color: #f4fbff;
-  height: 100%;
   width: 100%;
   position: absolute;
   div {
@@ -8,8 +7,8 @@
     left: 0;
     transform: translate(-0, 0);
     .title {
-        margin-top: 10%;
-        height: 15%;
+      margin-top: 10%;
+      height: 15%;
       h2 {
         position: relative;
         display: inline-block;
@@ -26,23 +25,87 @@
       }
     }
     .cards {
-      margin-top: 2%;
+      margin-top: 6vw;
       position: relative;
       width: 100%;
-      height: 50%;
+      height: 45vw;
       background-color: red;
       display: flex;
       justify-content: space-between;
     }
+    a {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
   }
 }
 
-.card{
-    width: 30%;
-    height: 100%;
-    background-color: blue;
-    display: inline-block;
+.card {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  display: inline-block;
 
+  img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
 
+  h6 {
+    margin-top: 40px;
+    font-size: 12px;
+    margin-left: 45px;
+  }
 
+  h4 {
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .iconsContainer {
+    display: flex;
+    height: 14%;
+    :nth-child(2) {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+    .imgCard {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      object-fit: none;
+      display: inline;
+      fill: red;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+
+    .infoCard {
+      width: calc(100% / 3);
+
+      h6 {
+        margin: 0;
+        text-align: center;
+      }
+
+      h5 {
+        margin: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  a {
+    width: 55%;
+    background-color: $fontcolor;
+    color: $hovercolor;
+
+    &:hover {
+      background-color: $hovercolor;
+      color: $fontcolor;
+    }
+  }
 }
