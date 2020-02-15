@@ -9,6 +9,7 @@
       autoplay: {
         delay: 3000,
       },
+      // effect: 'fade',
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
