@@ -21,6 +21,7 @@ padding: 0;
 //variables
 $fontcolor:#ffffff;//
 $hovercolor:#ff9019;// cor dos btn e hover do nav
+$bordercolor:#dee0e2;
 
 //BTN
 
@@ -30,7 +31,7 @@ $hovercolor:#ff9019;// cor dos btn e hover do nav
   width: 292px;
   background-color: $hovercolor;
   font-family: Oswald;
-  border-radius: 4px;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   font-size:18px;
@@ -45,7 +46,7 @@ $hovercolor:#ff9019;// cor dos btn e hover do nav
     &:hover{
       background-color: $fontcolor;
       color: $hovercolor;
-      border: 0.5px solid black;
+      border: 0.5px solid $bordercolor;
     }
 
 }
