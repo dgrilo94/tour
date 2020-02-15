@@ -1,0 +1,33 @@
+.doubleText {
+  height: 650px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 100px;
+  div {
+    left: 0;
+    transform: translate(0);
+
+    h2{
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        height: 120px;
+        font-size: 60px;
+        font-family: lora;
+        margin-top: 30px;
+
+    }
+    .textContainer {
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-between;
+      p {
+        width: 45%;
+        font-size: 20px;
+        font-family: Oswald;
+        line-height: 32px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
