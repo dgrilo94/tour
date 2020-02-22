@@ -159,3 +159,29 @@ header {
     line-height: 24px;
   }
 }
+
+.header2{
+  height: 650px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: $fontcolor;
+  margin: auto;
+
+  h3{
+    position: absolute;
+    font-size: 70px;
+    font-family: lora;
+    margin-top: 270px;
+  }
+
+  h5{
+    position: absolute;
+    font-size: 20px;
+    font-family: lora;
+    margin-top: 380px;
+
+
+  }
+
+
+}
