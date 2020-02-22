@@ -14,7 +14,7 @@ header {
 
     .nav {
       float: right;
- 
+
       ul {
         display: inline;
 
@@ -27,8 +27,10 @@ header {
             color: $fontcolor;
             text-decoration: none;
             font-family: Oswald;
+            transition: color linear 0.5s;
+            text-shadow: 1px 1px 4px #000000;
             &:hover {
-            color:$hovercolor;
+              color: $hovercolor;
             }
           }
         }
@@ -37,23 +39,7 @@ header {
   }
 }
 
-.slick {
-  display: block;
-  height: 100%;
-  width: 100%;
-
-  div {
-    overflow: hidden;
-    img {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-    }
-  }
-}
-
-.swiper-container{
-
+.swiper-container {
   display: block;
   height: 100%;
   width: 100%;
@@ -64,11 +50,43 @@ header {
       height: 100vh;
       object-fit: cover;
     }
+    h2 {
+      width: 50%;
+      position:absolute;
+      z-index: 200;
+      color: $fontcolor;
+      text-transform: uppercase;
+      font-size: 75px;
+      font-family: Barlow;
+      line-height: 100px;
+      bottom: 50%;
+      left: 20%;
+      text-shadow: 2px 2px 12px #000000;
+    }
+    a {
+      position:absolute;
+      z-index: 200;
+      bottom:25%;
+      left: 20%;
+      text-shadow: 1px 1px 2px #000000;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+      span{
+        position: relative;
+        bottom: 17px;
+        left: 8px;
+      }
+      color: $fontcolor;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-family: Barlow;
+      line-height: 24px;
+      text-decoration: none;
+    }
   }
-
 }
-
-
 
 /* custmm bullets style */
 .swiper-pagination-bullet {
@@ -79,19 +97,27 @@ header {
   line-height: 30px;
   font-size: 20px;
   border-radius: 0;
-  border-left: 0.5px solid $fontcolor; 
+  border-left: 1px solid $fontcolor;
   margin: 0;
   font-family: Barlow;
   font-weight: 100;
   color: $fontcolor;
+  transition: linear 0.5s;
+  text-shadow: 1px 1px 4px #000000;
+  &:hover {
+    span {
+      color: $hovercolor;
+    }
+  }
 
-  span{
+  span {
     font-size: 20px;
     color: $fontcolor;
     text-transform: uppercase;
     font-family: Barlow;
+    transition: linear 0.5s;
   }
-  div{
+  div {
     color: $fontcolor;
     text-transform: uppercase;
     font-size: 16px;
@@ -100,11 +126,36 @@ header {
   }
 }
 .swiper-pagination-bullet-active {
-  color:$fontcolor;
+  color: $fontcolor;
 }
 
-.swiper-pagination{
+.swiper-pagination {
   display: flex;
   justify-content: center;
+}
 
+.sliderText {
+  z-index: 300;
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  right: 0;
+  h2 {
+    color: $fontcolor;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Barlow;
+    line-height: 24px;
+  }
+  a {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    color: $fontcolor;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Barlow;
+    line-height: 24px;
+  }
 }
