@@ -1,0 +1,28 @@
+.miniSwiper{
+    height: 650px;
+    width: 100%;
+    position: relative;
+
+}
+
+.swiper-button-next{
+    width: 50px;
+    height: 50px;
+    background-image: url(/arrowright.png);
+    &:hover{
+        background-image: url(/arrowrighthover.png);
+    }
+
+
+}
+
+.swiper-button-prev{
+    width: 50px;
+    height: 50px;
+    background-image: url(/arrowleft.png);
+    &:hover{
+        background-image: url(/arrowlefthover.png);
+    }
+
+
+}

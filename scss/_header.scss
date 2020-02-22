@@ -179,9 +179,48 @@ header {
     font-size: 20px;
     font-family: lora;
     margin-top: 380px;
+    width: 80%;
+    line-height: 25px;
 
 
   }
+}
 
+.containerInfo2 {
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 40px;
+  z-index: 200;
+  .logo {
+    position: relative;
+    float: left;
+    display: inline;
+  }
 
+  .nav {
+    float: right;
+
+    ul {
+      display: inline;
+
+      li {
+        display: inline;
+        margin-right: 30px;
+
+        a {
+          font-size: 16px;
+          color: $header2color;
+          text-decoration: none;
+          font-family: Oswald;
+          transition: color linear 0.5s;
+          text-shadow: 1px 3px 10px #00000077;
+          &:hover {
+            color: $hovercolor;
+          }
+        }
+      }
+    }
+  }
 }
