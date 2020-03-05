@@ -1,14 +1,14 @@
   $( document ).ready(function() {
     //labels para os nomes das tours
-    let labels = ['label1', 'label2', 'label3'];
-    let description =['batatas com sardinha', 'atum ', 'javali']
+    let labels = ['Most popular', 'The historical', 'The religious' , 'Natural wonder'];
+    let description =['Sintra', 'Lisbon', 'Fátima', 'Arrábida' ]
 
 
     var swiper = new Swiper('.swiper-container', {
       loop: true,
-      autoplay: {
-        delay: 3000,
-      },
+      // autoplay: {
+      //   delay: 3000,
+      // },
       // effect: 'fade',
       pagination: {
         el: '.swiper-pagination',

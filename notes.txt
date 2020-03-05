@@ -6,6 +6,9 @@ tamanho das imagens e altura 1600px e depois compressao de tnypng
 footer devia ser space between, ver o que fica melhor
 -----
 
----
-about us sem as duas ultimas paginas
-----
+
+ver todas as fonts
+
+ver o booking
+
+
