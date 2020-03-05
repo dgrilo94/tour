@@ -2,6 +2,9 @@ links com os icones https://freeicons.io/social-media-4/instagram-icon-385
 
 tamanho das imagens e altura 1600px e depois compressao de tnypng
 
+---
+footer devia ser space between, ver o que fica melhor
+-----
 
 
 fazer atractions detail 4( tudo menos available tours e blog) com a descrição da tour details 3

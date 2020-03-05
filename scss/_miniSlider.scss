@@ -11,7 +11,7 @@
     background-image: url(/right.png);
     background-repeat: no-repeat;
     background-position: center;
-    border: solid 1px #dfe0e2;
+    border: solid 1px $bordercolor;
     border-radius: 30px;
     background-color: $fontcolor;
     transition: linear 0.3s;
@@ -29,7 +29,7 @@
     background-image: url(/Left.png);
     background-repeat: no-repeat;
     background-position: center;
-    border: solid 1px #dfe0e2;
+    border: solid 1px $bordercolor;
     border-radius: 30px;
     background-color: $fontcolor;
     transition: linear 0.3s;

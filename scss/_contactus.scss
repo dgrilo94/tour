@@ -1,0 +1,149 @@
+.contact {
+  height: 650px;
+  div {
+    left: 0;
+    transform: translate(0);
+    .txtContact {
+      margin-top: 150px;
+      h3 {
+        font-size: 60px;
+        font-family: lora;
+      }
+      p {
+        margin-top: 95px;
+        font-size: 20px;
+      }
+    }
+
+    .iconContact {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      div {
+        border-right: solid 0.5px $bordercolor;
+        height: 220px;
+        width: 25%;
+        .iconHolder {
+          height: 100px;
+          width: 100px;
+          background-color: #f4fbff;
+          border-radius: 100px;
+          border: none;
+          margin: auto;
+
+          img {
+            display: block;
+            margin: auto;
+            position: relative;
+            top: 50%;
+            transform: translate(0, -50%);
+          }
+        }
+
+        h6 {
+          font-size: 16px;
+          color: #7c838b;
+          margin-top: 30px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        h5 {
+          margin-top: 20px;
+          font-size: 20px;
+          color: #393c3f;
+          text-align: center;
+        }
+      }
+      div:last-child {
+        border: none;
+      }
+    }
+  }
+}
+
+.form {
+  height: 790px;
+  background-color: #f4fbff;
+
+  div {
+    left: 0;
+    transform: translate(0);
+
+    h3 {
+      padding-top: 150px;
+      font-size: 60px;
+      font-family: lora;
+      text-align: center;
+    }
+    form {
+      margin: auto;
+      margin-top: 70px;
+      width: 65%;
+      font-size: 0;
+
+      div {
+        width: 50%;
+        display: inline-block;
+        margin: auto;
+        vertical-align: middle;
+        input {
+          display: block;
+          height: 45px;
+          width: 97%;
+          margin-top: 20px;
+          border: solid 1px $bordercolor;
+          border-radius: 3px;
+          font-size: 16px;
+          color: $formfontcolor;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+
+      div:nth-child(2) {
+        input {
+          margin-left: 3%;
+        }
+      }
+
+      #Message {
+        display: block;
+        width: 100%;
+        height: 150px;
+        margin-top: 20px;
+        padding: 20px;
+        border: solid 1px $bordercolor;
+        border-radius: 3px;
+        font-size: 16px;
+        color: $formfontcolor;
+        resize: none;
+      }
+
+      button {
+        position: relative;
+        height: 58px;
+        width: 292px;
+        background-color: $hovercolor;
+        font-family: Oswald;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 21px 0 21px 0;
+        display: block;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: $fontcolor;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+        border: 0;
+
+        &:hover {
+          background-color: $fontcolor;
+          color: $hovercolor;
+          border: 0.5px solid $bordercolor;
+        }
+      }
+    }
+  }
+}
