@@ -6,22 +6,36 @@
 }
 
 .swiper-button-next{
-    width: 50px;
-    height: 50px;
-    background-image: url(/arrowright.png);
+    width: 40px;
+    height: 40px;
+    background-image: url(/right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px #dfe0e2;
+    border-radius: 30px;
+    background-color: $fontcolor;
+    transition: linear 0.3s;
     &:hover{
-        background-image: url(/arrowrighthover.png);
+        box-shadow: 0px 0px 10px $hovercolor;
+        background-image: url(/righthover.png);
     }
 
 
 }
 
 .swiper-button-prev{
-    width: 50px;
-    height: 50px;
-    background-image: url(/arrowleft.png);
+    width: 40px;
+    height: 40px;
+    background-image: url(/Left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px #dfe0e2;
+    border-radius: 30px;
+    background-color: $fontcolor;
+    transition: linear 0.3s;
     &:hover{
-        background-image: url(/arrowlefthover.png);
+        box-shadow: 0px 0px 10px $hovercolor;
+        background-image: url(/lefthover.png);
     }
 
 
