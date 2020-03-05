@@ -1,0 +1,99 @@
+.aboutGrid {
+  height: 2500px;
+  background-color: #f4fbff;
+  div {
+    left: 0;
+    transform: translate(0);
+
+    .title {
+      margin-bottom: 45px;
+      padding-top: 150px;
+      h2 {
+        position: relative;
+        display: inline-block;
+        height: 30px;
+        font-size: 60px;
+        font-family: lora;
+        margin-top: 5%;
+      }
+      p {
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        float: right;
+        font-size: 20px;
+        margin-top: 5%;
+      }
+    }
+
+    .grid{
+        width: 100%;
+        font-size: 0;
+        padding-top: 95px;
+        .gridLine{
+            width: 100%;
+            height: 600px;
+            font-size: 0;
+            display: flex;
+            &:hover {
+                box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+                .gridImg {
+                  overflow: hidden;
+                  img {
+                    transform: scale(1.1);
+                  }
+                }
+            }
+            .gridTxt{
+                width: 50%;
+                height: 100%;
+                background-color: $fontcolor;
+                padding-top: 130px;
+                padding-bottom: 130px;
+                padding-right: 110px;
+                padding-left: 80px;
+
+                h4{
+                    font-size: 40px;
+                    color: $fontcolorblack;
+
+                }
+
+                p{
+                    font-size: 20px;
+                    color: $fontcolorblack;
+                    margin-top: 85px;
+                }
+
+
+
+            }
+
+            .gridImg{
+                width: 50%;
+                height: 100%;
+                overflow: hidden;
+                padding: 0;
+                font-size: 0;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: transform .5s ease;
+                }
+
+            }
+
+
+
+        }
+
+
+
+
+    }
+
+  }
+
+}

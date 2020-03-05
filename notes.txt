@@ -6,13 +6,6 @@ tamanho das imagens e altura 1600px e depois compressao de tnypng
 footer devia ser space between, ver o que fica melhor
 -----
 
-
-fazer atractions detail 4( tudo menos available tours e blog) com a descrição da tour details 3
-
----
-
-fazer contacts sem a grid
-
 ---
 about us sem as duas ultimas paginas
 ----
